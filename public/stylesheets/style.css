@@ -1,0 +1,84 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  background-color: #b9daff;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #d2e7ff;
+  border: 2px solid #abc3ff;
+  margin-bottom: 23px;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.header{
+  width: fit-content;
+}
+.school-title{
+  color: #587abd;
+  font-size: 28px;
+  margin: 10px;
+}
+nav {
+  width: 100%;
+  background: #d2e7ff;
+  margin-bottom: 50px;
+  display: flow;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #587abd;
+  font-style: normal;
+}
+nav ul {
+  display: flex;
+  margin: 29px;
+  list-style: none;
+  padding: 0;
+
+}
+nav li a {
+  display: block;
+  padding: 20px 30px;
+  color: blue;
+  font-size: 18px;
+}
+.nav-content{
+  max-width: 1300px;
+  width: 100%;
+}
+
+.studentsinCourse{
+  margin: 15px;
+}
+.courses{
+  width: fit-content;
+  background: #d2e7ff;
+  display: flow;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #89b8ff;
+  color: #587abd;
+}
+th{
+  margin: 10px;
+}
+td{
+  margin: 10px;
+}
+tr{
+  margin: 10px;
+}
+.students{
+  width: fit-content;
+  background: #d2e7ff;
+  display: flow;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #89b8ff;
+  color: #587abd;
+}
